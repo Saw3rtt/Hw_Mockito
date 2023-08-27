@@ -52,7 +52,7 @@ class DepartmentServiceImplTest {
         when(employeeService.searchAll()).thenReturn(employees);
         Employee minSalaryEmployee = underTest.searchMinSalaryEmployee(1);
 
-        assertEquals(ivan, minSalaryEmployee);
+        assertEquals(valery, minSalaryEmployee);
 
     }
 
